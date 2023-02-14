@@ -1,5 +1,8 @@
-let js = "amazing";
-if (js === "amazing") alert("JavaScript is Fun!");
+// let js = "amazing";
+// if (js === "amazing") alert("JavaScript is Fun!");
+
+
+
 
 
 /* Notes
@@ -20,4 +23,16 @@ let mySecondJob = "Teacher";
 Don't do this
 job1 = "Teacher";
 job2 = "programmer";
+
+
+Primitive Data Types 
+Number: FLoating point numbers (Use for decimals and integers) let age = 23;
+String: Sequence of characters (Used for Text) let firstname = "Jonas";
+Boolean: Logical type that can only be true or false (Used for taking decisions)let fullAge = true;
+undefined: value taken by a variable that is not yet defined(empty value) let children;
+Null: Also means 'empty value'
+Symbol (ES2015): value that is unique and cannot be changed.
+BgInt(ES2020): Larger Integers than the Number can hold. 
+
+Note that it is the value that holds the data type not the variable
 */
