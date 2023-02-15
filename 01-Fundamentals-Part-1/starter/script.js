@@ -1,9 +1,13 @@
- let js = "amazing";
+let js = "amazing";
 if (js === "amazing") alert("JavaScript is Fun!");
 
+let firstName = "Yetunde";
+let age = 23;
+let school = true;
+let masters;
+let phd = null;
 
-
-
+console.log(typeof school);
 
 /* Notes
 A value is a piece of data. It is the most fundamental unit of information that we  have in programming.
@@ -35,4 +39,15 @@ Symbol (ES2015): value that is unique and cannot be changed.
 BgInt(ES2020): Larger Integers than the Number can hold. 
 
 Note that it is the value that holds the data type not the variable
+
+Let, Const and Var Variables
+
+Let and var variables can be redeclared i.e (mutable) but const cannot be redeclared i.e (immutable)
+let age = 30;
+age = 34;
+
+const P! = 3.141234
+
+var mybirthday = 'September'
+myBirthday = 'August 20
 */
