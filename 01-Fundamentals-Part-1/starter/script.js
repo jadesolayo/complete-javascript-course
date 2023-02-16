@@ -1,13 +1,13 @@
 let js = "amazing";
 // if (js === "amazing") alert("JavaScript is Fun!");
 
-let firstName = "Yetunde";
-let age = 23;
-let school = true;
-let masters;
-let phd = null;
+// let firstName = "Yetunde";
+// let age = 23;
+// let school = true;
+// let masters;
+// let phd = null;
 
-console.log(typeof school);
+// console.log(typeof school);
 
 /* Notes
 A value is a piece of data. It is the most fundamental unit of information that we  have in programming.
@@ -107,8 +107,28 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 GOOD LUCK 😀 */
 
 // Solution
-let BMI;
-let weightMark = 78;
-let heightMark = 1.69;
-BMI = weightMark / heightMark ** 2;
-console.log(BMI);
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+
+const markHigherBMI = BMIMark > BMIJohn;
+
+console.log(BMIMark, BMIJohn, markHigherBMI);
+
+// Strings and Strings Literal
+
+const firstName = "Jonas";
+const job = "teacher";
+const birthYear = 1995;
+const year = 2037;
+
+const jonas =
+  "I'm " + firstName + " , a " + (year - birthYear) + " year old " + job + "!";
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(jonasNew);
