@@ -130,6 +130,8 @@ const jonas =
   "I'm " + firstName + " , a " + (year - birthYear) + " year old " + job + "!";
 console.log(jonas);
 
+// String Literals Examples
+
 const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
 console.log(jonasNew);
 
